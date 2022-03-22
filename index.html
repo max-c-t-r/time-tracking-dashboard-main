@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+  <section class="content">
+    <!--
+      ====================================
+      dashboard
+      ====================================
+    -->
+    <section class="dashboard">
+      <div class="dashboard__info">
+        <img class="dashboard__info-photo" src="images/image-jeremy.png" alt="">
+        <div class="dashboard__info-content">
+          <span class="dashboard__info-by">Report for</span>
+          <span class="dashboard__info-name">Jeremy Robson</span>
+        </div>
+      </div>
+      <nav class="dashboard__options">
+        <li class="dashboard__options-op">Daily</li>
+        <li class="dashboard__options-op">Weekly</li>
+        <li class="dashboard__options-op">Monthly</li>
+      </nav>
+    </section>
+
+    <!--
+      ====================================
+      Cards info
+      ====================================
+    -->
+    <section class="dashboard-cards">
+
+      <div class="card work">
+        <div class="card__background">
+          <img class="card__background-category" src="images/icon-work.svg" alt="">
+        </div>
+        <div class="card__info">
+          <div class="card-category">
+            <span class="category__title">Work</span>
+            <div class="category__option">
+              <svg class="category__option-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 
+                0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-time">
+            <span class="card-time-hours">5hrs</span>
+            <p class="card-time-before">Last week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card play">
+        <div class="card__background">
+          <img class="card__background-category" src="images/icon-play.svg" alt="">
+        </div>
+        <div class="card__info">
+          <div class="card-category">
+            <h4 class="category__title">Work</h4>
+            <div class="category__option">
+              <svg class="category__option-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 
+                0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-time">
+            <span class="card-time-hours">5hrs</span>
+            <p class="card-time-before">Last week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card study">
+        <div class="card__background">
+          <img class="card__background-category" src="images/icon-study.svg" alt="">
+        </div>
+        <div class="card__info">
+          <div class="card-category">
+            <span class="category__title">Work</span>
+            <div class="category__option">
+              <svg class="category__option-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 
+                0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-time">
+            <span class="card-time-hours">5hrs</span>
+            <p class="card-time-before">Last week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card exercise">
+        <div class="card__background">
+          <img class="card__background-category" src="images/icon-exercise.svg" alt="">
+        </div>
+        <div class="card__info">
+          <div class="card-category">
+            <span class="category__title">Work</span>
+            <div class="category__option">
+              <svg class="category__option-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 
+                0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-time">
+            <span class="card-time-hours">5hrs</span>
+            <p class="card-time-before">Last week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card social">
+        <div class="card__background">
+          <img class="card__background-category" src="images/icon-social.svg" alt="">
+        </div>
+        <div class="card__info">
+          <div class="card-category">
+            <span class="category__title">Work</span>
+            <div class="category__option">
+              <svg class="category__option-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 
+                0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-time">
+            <span class="card-time-hours">5hrs</span>
+            <p class="card-time-before">Last week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card self-care">
+        <div class="card__background">
+          <img class="card__background-category" src="images/icon-self-care.svg" alt="">
+        </div>
+        <div class="card__info">
+          <div class="card-category">
+            <span class="category__title">Work</span>
+            <div class="category__option">
+              <svg class="category__option-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 
+                0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-time">
+            <span class="card-time-hours">5hrs</span>
+            <p class="card-time-before">Last week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <script src="JS/main.js"></script>
+</body>
+</html>
